@@ -1,8 +1,8 @@
 # Project_portafolio
 
-This repository brings together relevant projects I have worked on. / En este repositorio reúno los proyectos reelevantes en lo que he trabajado.
-
 English:
+
+Welcome to my prohect repository...
 
 - Tripleten_Sprint4_DataWrangling:
     This project focuses on applying data exploration, cleaning, and manipulation skills across different dataframes, followed by creating meaningful visualizations (charts) to answer the project's key questions.
@@ -18,11 +18,15 @@ English:
 
 
 Español:
-- Tripleten_Sprint4_DataWrangling:
-    Este proyecto consiste en aplicar habilidades de exploración, limpieza y manipulación de datos de diferentas dataframes; para, posteriormente, hacer visualizaciones (gráficas) significativas y responder a las preguntas planteadas en el proyecto.
 
-- Tripleten_Sprint5_StatisticalDataAnalysis:
-    En este proyecto se expandió el uso de habilidades para el análsis de datos. Se llevaron a cabo las mismas tareas que en el proyecto anterior, pero se agregó el uso de técnicas de Análisis Estadístico; para plantear hipótesis y corroborarlas (aceptarlas) o rechazarlas.
+Bienvenidos a mi respositorio...
+
+- TiendaComestiblesInstacart:
+    Este proyecto consiste en aplicar habilidades de exploración, limpieza y manipulación de datos de diferentas dataframes; para, posteriormente, hacer visualizaciones significativas. Se hace uso de las librerías pandas y matplolib, se convierten archivos .csv en dataframes, se exploran los datos con métodos de la librería pandas como .info() y .head(); se transforman los tipos de datos tipos más adecuados para el análisis, según la inmformación que muestra cada columna de cada dataframe; se buscan datos duplicados y ausentes, y se eliminan o sustituyen según sea conveniente para el análisis; se visualizan los datos por medio de gráficas de barras e histogramas, para revelar el comportamiento de los usuarios; con respecto a los productos más comprados, la frecuencia de compra y el órden en que se encargan los productos. Con estas visualizaciones, se encontró un simpáctico patrón que indicaba que, en esta tienda en línea, Instacart, los productos más populares eran los plátanos (bananas); por mucha direncia con respecto a los demás productos.
+
+- TelecomunicacionesMegaline:
+    En este proyecto se 
+    expandió el uso de habilidades para el análsis de datos. Se llevaron a cabo las mismas tareas que en el proyecto anterior, pero se agregó el uso de técnicas de Análisis Estadístico; para plantear hipótesis y corroborarlas (aceptarlas) o rechazarlas.
 
 - Tripleten_Sprint6_IntegratedProjectModule1:
     Este proyecto integrado, consiste todos los conocimientos adquiridos en el uso de Python, para el análisis de datos. Desde la importación de las librerías a utilizar, pasando por la exploración y limpieza de los datos; hasta la visualización de datos (gráficas) y la elaboración de hipótesis (pruebas estadísticas).
