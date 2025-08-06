@@ -1,39 +1,118 @@
-# Project_portafolio
+# Portafolio de Proyectos / Project Portfolio
 
-English:
+![Estado del Proyecto](https://img.shields.io/badge/estado-activo-brightgreen.svg)
+![Project Status](https://img.shields.io/badge/status-active-brightgreen.svg)
 
-Welcome to my prohect repository...
+## Español
 
-- Tripleten_Sprint4_DataWrangling:
-    This project focuses on applying data exploration, cleaning, and manipulation skills across different dataframes, followed by creating meaningful visualizations (charts) to answer the project's key questions.
+### Descripción
 
-- Tripleten_Sprint5_StatisticalDataAnalysis:
-    This project expanded data analysis capabilities. It involved the same tasks as the previous project but added Statistical Analysis techniques to formulate and test hypotheses (either accepting or rejecting them).
+Bienvenidos a mi portafolio de proyectos, donde muestro mis habilidades en análisis de datos, visualización y desarrollo de aplicaciones, adquiridas durante el bootcamp de Analista de Datos de TripleTen. Este repositorio incluye proyectos que abarcan desde exploración y limpieza de datos hasta análisis estadístico, visualización interactiva y despliegue de aplicaciones web. Cada proyecto utiliza herramientas modernas como Python, GitHub, Streamlit y Power BI, con un enfoque en resolver problemas reales de negocio.
 
-- Tripleten_Sprint6_IntegratedProjectModule1:
-    This integrated project combines all acquired Python skills for data analysis – from importing necessary libraries, through data exploration and cleaning, to data visualization (charts) and hypothesis testing (statistical analysis).
+### Tabla de Contenidos
 
-- Tripleten_Sprint7_CarMarketAnalytics:
-    This project introduces Software Tools for Data Analyst projects, with a focus on GitHub for version control, Visual Studio Code for application development, Streamlit for application testing, and Render.com for web deployment. The application itself visualizes dataframe data through interactive charts.
+- [Tienda Comestibles Instacart](#tienda-comestibles-instacart)
+- [Telecomunicaciones Megaline](#telecomunicaciones-megaline)
+- [Ventas Videojuegos](#ventas-videojuegos)
+- [Car Market Analytics](#car-market-analytics)
+- [Contacto](#contacto)
 
+### Tienda Comestibles Instacart
 
-Español:
+**Descripción**: Este proyecto analiza el comportamiento de compra de los clientes de *Instacart*, una tienda en línea de comestibles. Se aplicaron habilidades de exploración, limpieza y manipulación de datos en diferentes *dataframes*, seguidas de visualizaciones significativas para identificar patrones. Se convirtieron archivos `.csv` en *dataframes*, se exploraron con métodos de *pandas* como `.info()` y `.head()`, y se transformaron los tipos de datos según la información de cada columna. Se identificaron y gestionaron datos duplicados y ausentes, correlacionando los *dataframes* mediante claves como `id` y `product_id`. Las visualizaciones (gráficas de barras e histogramas) revelaron patrones en los productos más comprados, la frecuencia de compra y el orden de los pedidos. **Resultado**: Los plátanos son los productos más populares por un amplio margen. ¿Será que los clientes no son humanos, sino monos o chimpancés? 😂🐒
 
-Bienvenidos a mi respositorio...
+**Librerías**:
+![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=flat&logo=pandas&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/matplotlib-%23007ACC.svg?style=flat&logo=matplotlib&logoColor=white)
 
-- TiendaComestiblesInstacart:
-    El negocio, es una tienda en línea de comestibles llamada "Instacart" y el proyecto trata sobre hallar patrones en el comportamiento de compra de los clientes.
-    Este proyecto consiste en aplicar habilidades de exploración, limpieza y manipulación de datos de diferentas dataframes; para, posteriormente, hacer visualizaciones significativas. Se hizo uso de las librerías pandas y matplolib, se convirtieronerten archivos .csv en dataframes, se exploraron los datos con métodos de la librería pandas como .info() y .head(); se transformaronn los tipos de datos tipos más adecuados para el análisis, según la inmformación de cada columna de cada dataframe; se buscaron datos duplicados y ausentes, y se eliminaron o sustituyeron según sea conveniente para el análisis y se correlacionaron los dataframes según las claves "id" y "procudt_is". Para el análisis se visualizaron los datos por medio de gráficas de barras e histogramas, para revelar el comportamiento de los usuarios; con respecto a los productos más comprados, la frecuencia de compra y el órden en que se encargan los productos. Con estas visualizaciones, se encontró un simpáctico patrón que indicaba que, en esta tienda en línea, Instacart, los productos más populares eran los plátanos (bananas); por mucha direncia con respecto a los demás productos ¿A caso los clienestes no son humanos, sino monos o chimpancés? [Insertar emoji de mono riendo]
+### Telecomunicaciones Megaline
 
-- TelecomunicacionesMegaline:
-    El negocio es un operador de telecomunicaciones Megaline y el proyecto consiste en encontrar qué tarifa genera más ingresos, para brindale esa información al departamento de publicidad.
-    En este proyecto se reforzaron las habilidades aplicadas en el proyecto anterior y se agregó el uso de nuevas habilidades para la comprobación de hipótesis, con el uso de pruebas estadísticas como "levene" y "t-student". Se exploró la información de diferentes archivos csv, que previamente fueron convertidos en dataframes, se hizo una limpieza de los dataframes y se hizo una correlación entre los diferentes dataframes. Para el análisis, se utilizaron gráficas de barras, histogramas, diagramas de cajas y distribuciones normales. Con la información de las gráficas, ya se observaron diferencias en los ingresos por plan de consumo; sin embargo, para llegar a una conclusión más robuzta, se planteó la hipótesis de si los ingresos promedio eran iguales o diferentes y se revisó con las pruebas de hipótesis de levene y de t-student (para dos conjuntos independientes). Se encontró que los ingresos promedio eran diferentes y que el plan básico era el quemás ingresos generaba.
+**Descripción**: Este proyecto analiza los ingresos generados por las tarifas de un operador de telecomunicaciones, *Megaline*, para informar al departamento de publicidad. Se reforzaron habilidades de exploración y limpieza de datos, y se aplicaron pruebas estadísticas como *Levene* y *t-student* para comprobar hipótesis. Se exploraron archivos `.csv` convertidos en *dataframes*, se limpiaron y correlacionaron, y se visualizaron los datos con gráficas de barras, histogramas, diagramas de cajas y distribuciones normales. **Resultado**: Las pruebas estadísticas confirmaron que los ingresos promedio difieren entre planes, siendo el plan básico el que genera más ingresos.
 
-- VentasVideojuegos:
-    El negocio es una tienda de videojuegos, que tiene registros de sus ventas desde la década de los 80's, hasta el año 2016 y el proyecto consiste en revisar patrones históricos, para hacer una prospectiva para el año 2017.
-    Este es un proyecto integrado que consiste en aplicar todos los conocimientos adquiridos en el uso de Python, para el análisis de datos. Desde la importación de las librerías a utilizar, pasando por la exploración y limpieza de los datos; hasta la visualización de datos y la elaboración de hipótesis. Se comenzó por convertir el archivo csv en un datframe y explorar sus datos; se hizo una limpieza de los datos, convirtiendo los tipos de datos por tipos adecuados, buscando y eliminados datos duplicados, buscando y sustituyendo datos ausentes y corroborando que todas las columnas mostraban la misma cantidad de elementos (datos limpio y completos). Posteriormente, se enriquecieron los datos, agregando una columna de "ventas totales" y otra de "generación". Se continuó por visualizar los datos con gráficas de barras, de líneas, de dispersión y de caja; dado que los datos eran muy numerosos, se optó por agrupar los videojuegos por consolas y trabajar con el top5 de consolas en ventas. Para la prospectiva del año 2017, se concluyó que el enfoque de la tienda, debía estar en adquirir los juegos de acción y de deportes; que fueran a lanzarse en las plataformas de Sony, Nintendo y Microsoft; al ser los géneros y plataformas más rentables.
+**Librerías**:
+![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=flat&logo=pandas&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/matplotlib-%23007ACC.svg?style=flat&logo=matplotlib&logoColor=white)
+![Seaborn](https://img.shields.io/badge/seaborn-%23007ACC.svg?style=flat&logo=seaborn&logoColor=white)
+![SciPy](https://img.shields.io/badge/scipy-%23007ACC.svg?style=flat&logo=scipy&logoColor=white)
 
-- CarMarketAnalytics:
-    El negocio es una agencia de ventas de autos usados y el proyecto consiste en displegar una interfaz (dashboard) para que el cliente (potencial), pueda visualizar la informacipon de los autos disponibles.
-    Este proyecto tiene como propósito incursionar en el uso de Herramientas de Software, para trabajar en proyectos como Analista de Datos. Su enfoque está en el uso de GitHub, para el versionmiento de archivos; Visual Studio Code, para la programación de una aplicación; Streamlit, para probar el funcionamiento de la aplicación y Render.com, para desplegar la aplicación en un servicio web. La aplicación como tal, consiste en la visualización de los datos, de un data frame, en forma de distintas gráficas.
-    Se comenzó por hacer una exploración rápida de los datos, así como hacer una limpieza suficiente; para poder graficar los datos. Se prosiguió por construir la aplicación para construir y visualizar la interfaz, por medio del uso de las librerías streamlit, pandas y plotly. La aplicación consitió en hacer un menú desplegable, del cual se pueda seleccionar los datos que se desean visualizar; el enfoque de las gráficas fue en las variables de precio y kilometraje contra categorías como año modelo, condición de uso, entre otras. Las gráficas, principalmente son de barras y de dispersión. Una vez elaborada la aplicación, se comprobó su funcionmiento con streamlit. Finalmente, se desplegó la aplicación en un servicio en línea de Renbder.com (https://proyecto7-sprint7.onrender.com). Cabe mencionar, que todos los archivos de este proyecto, se manejaron desde un principio en un repositorio en git hub.
+### Ventas Videojuegos
+
+**Descripción**: Este proyecto analiza las ventas históricas de una tienda de videojuegos desde los años 80 hasta 2016, con el objetivo de realizar una prospectiva para 2017. Es un proyecto integrado que combina importación de librerías, exploración y limpieza de datos, visualización y pruebas de hipótesis. Se convirtió un archivo `.csv` en un *dataframe*, se limpiaron datos (tipos, duplicados, ausentes), y se enriquecieron con columnas de "ventas totales" y "generación". Las visualizaciones incluyeron gráficas de barras, líneas, dispersión y cajas, agrupando datos por consolas (top 5 en ventas). **Resultado**: Para 2017, se recomendó enfocarse en juegos de acción y deportes para plataformas de [Sony](https://www.sony.com/) 🎮, [Nintendo](https://www.nintendo.com/) 🎮 y [Microsoft](https://www.xbox.com/) 🎮, por ser los más rentables.
+
+**Librerías**:
+![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=flat&logo=pandas&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/matplotlib-%23007ACC.svg?style=flat&logo=matplotlib&logoColor=white)
+![Seaborn](https://img.shields.io/badge/seaborn-%23007ACC.svg?style=flat&logo=seaborn&logoColor=white)
+![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=flat&logo=numpy&logoColor=white)
+
+### Car Market Analytics
+
+**Descripción**: Este proyecto desarrolla un *dashboard* interactivo para una agencia de venta de autos usados, permitiendo a los clientes visualizar información de los vehículos disponibles. Se utilizaron herramientas de software como *GitHub* para versionamiento, *Visual Studio Code* para desarrollo, *Streamlit* para pruebas y *Render.com* para despliegue web ([ver aplicación](https://proyecto7-sprint7.onrender.com)). Se realizó una exploración y limpieza inicial de los datos, seguidas de la creación de un *dashboard* con un menú desplegable para seleccionar visualizaciones (gráficas de barras y dispersión) basadas en variables como precio, kilometraje, año modelo y condición. **Resultado**: Una aplicación funcional desplegada en línea, con visualizaciones interactivas.
+
+**Librerías**:
+![Streamlit](https://img.shields.io/badge/streamlit-%23FF4B4B.svg?style=flat&logo=streamlit&logoColor=white)
+![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=flat&logo=pandas&logoColor=white)
+![Plotly](https://img.shields.io/badge/plotly-%233F4F75.svg?style=flat&logo=plotly&logoColor=white)
+
+### Contacto
+
+- **Autor**: Ariel Yasunari Atenco Saucedo
+- **GitHub**: Yasunari-N64 (https://github.com/Yasunari-N64)
+- **Correo**: yasunari.atenco.u@gmail.com
+
+## English
+
+### Description
+
+Welcome to my project portfolio, showcasing my skills in data analysis, visualization, and application development, acquired during the TripleTen Data Analyst Bootcamp. This repository includes projects ranging from data exploration and cleaning to statistical analysis, interactive visualization, and web application deployment. Each project leverages modern tools like Python, GitHub, Streamlit, and Power BI, focusing on solving real-world business problems.
+
+### Table of Contents
+
+- [Instacart Grocery Store](#instacart-grocery-store)
+- [Megaline Telecommunications](#megaline-telecommunications)
+- [Video Game Sales](#video-game-sales)
+- [Car Market Analytics](#car-market-analytics)
+- [Contact](#contact)
+
+### Instacart Grocery Store
+
+**Description**: This project analyzes customer purchasing behavior at *Instacart*, an online grocery store. It involves data exploration, cleaning, and manipulation across multiple *dataframes*, followed by meaningful visualizations to identify patterns. CSV files were converted into *dataframes*, explored using *pandas* methods like `.info()` and `.head()`, and data types were adjusted based on column content. Duplicates and missing data were handled, and *dataframes* were correlated using keys like `id` and `product_id`. Visualizations (bar charts and histograms) revealed patterns in the most purchased products, purchase frequency, and order sequence. **Result**: Bananas are the most popular product by a wide margin. Are the customers human, or perhaps monkeys or chimpanzees? 😂🐒
+
+**Libraries**:
+![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=flat&logo=pandas&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/matplotlib-%23007ACC.svg?style=flat&logo=matplotlib&logoColor=white)
+
+### Megaline Telecommunications
+
+**Description**: This project analyzes revenue generated by *Megaline*'s tariffs to inform the advertising department. It reinforced data exploration and cleaning skills and introduced statistical tests like *Levene* and *t-student* for hypothesis testing. CSV files were converted into *dataframes*, cleaned, and correlated, with visualizations including bar charts, histograms, box plots, and normal distributions. **Result**: Statistical tests confirmed that average revenues differ between plans, with the basic plan generating the most revenue.
+
+**Libraries**:
+![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=flat&logo=pandas&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/matplotlib-%23007ACC.svg?style=flat&logo=matplotlib&logoColor=white)
+![Seaborn](https://img.shields.io/badge/seaborn-%23007ACC.svg?style=flat&logo=seaborn&logoColor=white)
+![SciPy](https://img.shields.io/badge/scipy-%23007ACC.svg?style=flat&logo=scipy&logoColor=white)
+
+### Video Game Sales
+
+**Description**: This project analyzes historical sales data from a video game store from the 1980s to 2016, aiming to forecast trends for 2017. It integrates skills in library imports, data exploration, cleaning, visualization, and hypothesis testing. A CSV file was converted into a *dataframe*, cleaned (types, duplicates, missing data), and enriched with "total sales" and "generation" columns. Visualizations included bar, line, scatter, and box plots, grouping data by consoles (top 5 in sales). **Result**: For 2017, the recommendation was to focus on action and sports games for [Sony](https://www.sony.com/) 🎮, [Nintendo](https://www.nintendo.com/) 🎮, and [Microsoft](https://www.xbox.com/) 🎮 platforms, as they are the most profitable.
+
+**Libraries**:
+![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=flat&logo=pandas&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/matplotlib-%23007ACC.svg?style=flat&logo=matplotlib&logoColor=white)
+![Seaborn](https://img.shields.io/badge/seaborn-%23007ACC.svg?style=flat&logo=seaborn&logoColor=white)
+![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=flat&logo=numpy&logoColor=white)
+
+### Car Market Analytics
+
+**Description**: This project develops an interactive *dashboard* for a used car sales agency, allowing clients to visualize available vehicle data. It used software tools like *GitHub* for version control, *Visual Studio Code* for development, *Streamlit* for testing, and *Render.com* for web deployment ([view application](https://proyecto7-sprint7.onrender.com)). Initial data exploration and cleaning were followed by creating a *dashboard* with a dropdown menu for selecting visualizations (bar and scatter plots) based on variables like price, mileage, model year, and condition. **Result**: A functional web application with interactive visualizations.
+
+**Libraries**:
+![Streamlit](https://img.shields.io/badge/streamlit-%23FF4B4B.svg?style=flat&logo=streamlit&logoColor=white)
+![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=flat&logo=pandas&logoColor=white)
+![Plotly](https://img.shields.io/badge/plotly-%233F4F75.svg?style=flat&logo=plotly&logoColor=white)
+
+### Contact
+
+- **Author**: Ariel Yasunari Atenco Saucedo
+- **GitHub**: Yasunari-N64 (https://github.com/Yasunari-N64)
+- **Email**: yasunari.atenco.u@gmail.com
