@@ -85,7 +85,8 @@ col1, col2 = st.columns(2)
 with col1:
     st.subheader("Distribución de Precios")
     fig1 = px.histogram(filtered_df, x="price", nbins=30,
-                        title="Distribución de Precios")
+                        title="Distribución de Precios",
+                        color_discrete_sequence=["green"])
     fig1.update_layout(xaxis_title="Precio ($)", yaxis_title="Cantidad")
     st.plotly_chart(fig1, use_container_width=True)
 
@@ -104,7 +105,8 @@ with col1:
     avg_price_by_type = filtered_df.groupby(
         "type")["price"].mean().reset_index()
     fig3 = px.bar(avg_price_by_type, x="type", y="price",
-                  title="Precio Promedio por Tipo")
+                  title="Precio Promedio por Tipo",
+                  color="type", color_discrete_sequence=px.colors.qualitative.Plotly)
     fig3.update_layout(xaxis_title="Tipo de Vehículo",
                        yaxis_title="Precio Promedio ($)")
     st.plotly_chart(fig3, use_container_width=True)
@@ -113,7 +115,8 @@ with col1:
 with col2:
     st.subheader("Distribución de Precios por Condición")
     fig4 = px.box(filtered_df, x="condition", y="price",
-                  title="Precios por Condición")
+                  title="Precios por Condición",
+                  color="condition", color_discrete_sequence=px.colors.qualitative.Plotly)
     fig4.update_layout(xaxis_title="Condición", yaxis_title="Precio ($)")
     st.plotly_chart(fig4, use_container_width=True)
 
