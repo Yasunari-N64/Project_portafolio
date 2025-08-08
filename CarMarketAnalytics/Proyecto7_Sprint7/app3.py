@@ -21,6 +21,7 @@ def load_data():
     df['model_year'] = df['model_year'].fillna(df['model_year'].median())
     df['odometer'] = df['odometer'].fillna(df['odometer'].median())
     df['cylinders'] = df['cylinders'].fillna(df['cylinders'].mode()[0])
+    df['brand'] = df['model'].str.split().str[0]
     return df
 
 
@@ -28,6 +29,10 @@ df = load_data()
 
 # Barra lateral con filtros
 st.sidebar.header("Filtros de Búsqueda")
+
+# Filtros: Marca
+brands = sorted(df['brand'].dropna().unique())
+selected_brands = st.sidebar.multiselect("Marca", brands, default=brands[:3])
 
 # Filtro: Tipo de vehículo
 vehicle_types = sorted(df['type'].dropna().unique())
@@ -65,6 +70,7 @@ odometer_range = st.sidebar.slider(
 
 # Filtrar datos
 filtered_df = df[
+    (df['brand'].isin(selected_brands)) &
     (df['type'].isin(selected_types)) &
     (df['price'].between(price_range[0], price_range[1])) &
     (df['model_year'].between(year_range[0], year_range[1])) &
