@@ -30,14 +30,25 @@ df = load_data()
 # Barra lateral con filtros
 st.sidebar.header("Filtros de Búsqueda")
 
-# Filtros: Marca
+# Filtro: Marca
 brands = sorted(df['brand'].dropna().unique())
-selected_brands = st.sidebar.multiselect("Marca", brands, default=brands[:3])
+select_all_brands = st.sidebar.checkbox(
+    "Seleccionar todas las marcas", value=True)
+if select_all_brands:
+    selected_brands = brands
+else:
+    selected_brands = st.sidebar.multiselect(
+        "Marca", brands, default=brands[:3])
 
 # Filtro: Tipo de vehículo
 vehicle_types = sorted(df['type'].dropna().unique())
-selected_types = st.sidebar.multiselect(
-    "Tipo de Vehículo", vehicle_types, default=vehicle_types[:3])
+select_all_types = st.sidebar.checkbox(
+    "Seleccionar todos los tipos", value=True)
+if select_all_types:
+    selected_types = vehicle_types
+else:
+    selected_types = st.sidebar.multiselect(
+        "Tipo de Vehículo", vehicle_types, default=vehicle_types[:3])
 
 # Filtro: Rango de precio
 min_price, max_price = int(df['price'].min()), int(df['price'].max())
@@ -51,13 +62,23 @@ year_range = st.sidebar.slider(
 
 # Filtro: Condición
 conditions = sorted(df['condition'].dropna().unique())
-selected_conditions = st.sidebar.multiselect(
-    "Condición", conditions, default=conditions)
+select_all_conditions = st.sidebar.checkbox(
+    "Seleccionar todas las condiciones", value=True)
+if select_all_conditions:
+    selected_conditions = conditions
+else:
+    selected_conditions = st.sidebar.multiselect(
+        "Condición", conditions, default=conditions)
 
 # Filtro: Tipo de combustible
 fuels = sorted(df['fuel'].dropna().unique())
-selected_fuels = st.sidebar.multiselect(
-    "Tipo de Combustible", fuels, default=fuels)
+select_all_fuels = st.sidebar.checkbox(
+    "Seleccionar todos los combustibles", value=True)
+if select_all_fuels:
+    selected_fuels = fuels
+else:
+    selected_fuels = st.sidebar.multiselect(
+        "Tipo de Combustible", fuels, default=fuels)
 
 # Filtro: Tracción 4x4
 is_4wd = st.sidebar.checkbox("Solo vehículos 4x4", value=False)
