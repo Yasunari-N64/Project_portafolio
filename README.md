@@ -47,7 +47,7 @@ Bienvenidos a mi portafolio de proyectos, donde muestro mis habilidades en anál
 
 ### Car Market Analytics
 
-**Descripción**: Este proyecto desarrolla un *dashboard* interactivo para una agencia de venta de autos usados, permitiendo a los clientes visualizar información de los vehículos disponibles. Se utilizaron herramientas de software como *GitHub* para versionamiento, *Visual Studio Code* para desarrollo, *Streamlit* para pruebas y *Render.com* para despliegue web ([ver aplicación](https://proyecto7-sprint7.onrender.com)). Se realizó una exploración y limpieza inicial de los datos, seguidas de la creación de un *dashboard* con un menú desplegable para seleccionar visualizaciones (gráficas de barras y dispersión) basadas en variables como precio, kilometraje, año modelo y condición. **Resultado**: Una aplicación funcional desplegada en línea, con visualizaciones interactivas. 🚗
+**Descripción**: Este proyecto desarrolla un *dashboard* interactivo para una agencia de venta de autos usados, permitiendo a los clientes visualizar información de los vehículos disponibles. Se utilizaron herramientas de software como *GitHub* para versionamiento, *Visual Studio Code* para desarrollo, *Streamlit* para pruebas y *Render.com* para despliegue web ([ver aplicación](https://project-portafolio.onrender.com)). Se realizó una exploración y limpieza inicial de los datos, seguidas de la creación de un *dashboard* con un menú desplegable para seleccionar visualizaciones (gráficas de barras y dispersión) basadas en variables como precio, kilometraje, año modelo y condición. **Resultado**: Una aplicación funcional desplegada en línea, con visualizaciones interactivas. 🚗
 
 **Librerías**:
 ![Streamlit](https://img.shields.io/badge/streamlit-%23FF4B4B.svg?style=flat&logo=streamlit&logoColor=white)
@@ -104,7 +104,7 @@ Welcome to my project portfolio, showcasing my skills in data analysis, visualiz
 
 ### Car Market Analytics
 
-**Description**: This project develops an interactive *dashboard* for a used car sales agency, allowing clients to visualize available vehicle data. It used software tools like *GitHub* for version control, *Visual Studio Code* for development, *Streamlit* for testing, and *Render.com* for web deployment ([view application](https://proyecto7-sprint7.onrender.com)). Initial data exploration and cleaning were followed by creating a *dashboard* with a dropdown menu for selecting visualizations (bar and scatter plots) based on variables like price, mileage, model year, and condition. **Result**: A functional web application with interactive visualizations. 🚗
+**Description**: This project develops an interactive *dashboard* for a used car sales agency, allowing clients to visualize available vehicle data. It used software tools like *GitHub* for version control, *Visual Studio Code* for development, *Streamlit* for testing, and *Render.com* for web deployment ([view application](https://project-portafolio.onrender.com)). Initial data exploration and cleaning were followed by creating a *dashboard* with a dropdown menu for selecting visualizations (bar and scatter plots) based on variables like price, mileage, model year, and condition. **Result**: A functional web application with interactive visualizations. 🚗
 
 **Libraries**:
 ![Streamlit](https://img.shields.io/badge/streamlit-%23FF4B4B.svg?style=flat&logo=streamlit&logoColor=white)
