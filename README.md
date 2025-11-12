@@ -15,6 +15,7 @@ Bienvenidos a mi portafolio de proyectos, donde muestro mis habilidades en anál
 - [Telecomunicaciones Megaline](#telecomunicaciones-megaline)
 - [Ventas Videojuegos](#ventas-videojuegos)
 - [Análisis de Mercado de Autos](#car-market-analytics)
+- [Análisis Retención de Clientes de Gimnasios](#análisis-retención-de-clientes-de-gimnasios)
 - [Contacto](#contacto)
 
 ### Tienda Comestibles Instacart
@@ -54,6 +55,34 @@ Bienvenidos a mi portafolio de proyectos, donde muestro mis habilidades en anál
 ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=flat&logo=pandas&logoColor=white)
 ![Plotly](https://img.shields.io/badge/plotly-%233F4F75.svg?style=flat&logo=plotly&logoColor=white)
 
+### Análisis Retención de Clientes de Gimnasios 🏋️‍♂️
+
+**Descripción**: Este proyecto me posiciona como Analista de Datos para la “Cadena de Gimnasios Model Fitness” 💪, con el objetivo de diseñar una estrategia de interacción con clientes basada en datos analíticos. Los pasos realizados fueron:  
+1. **Análisis Exploratorio de Datos (EDA)** 📊:  
+   - Limpieza de datos 🧹.  
+   - Visualización de los datos 📈.  
+2. **Construcción de un Modelo de Aprendizaje Automático** 🤖, para predecir la cancelación de usuarios:  
+   - `LogisticRegression`  
+   - `RandomForestClassifier`  
+3. **Agrupamiento de usuarios** en clusters con características similares 👥:  
+   - `StandardScaler`  
+   - `scaler.fit_transform`  
+4. **Interpretación de clusters** y recomendaciones estratégicas 📋.  
+
+**Resultado**: Se propusieron las siguientes estrategias:  
+1. Fomentar contratos de mayor duración para aumentar la retención 📅.  
+2. Dirigirse a clientes con alta propensión a abandonar mediante estrategias de *engagement* 🎯.  
+3. Atraer y retener a usuarios de 30 años en adelante con programas personalizados 🎂.  
+4. Personalizar la experiencia para clientes que viven lejos del gimnasio 🚗.
+
+**Librerías**:
+![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=flat&logo=scikit-learn&logoColor=white)
+![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=flat&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=flat&logo=numpy&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/matplotlib-%23ffffff.svg?style=flat&logo=matplotlib&logoColor=black)
+![Seaborn](https://img.shields.io/badge/seaborn-%23ffffff.svg?style=flat&logo=python&logoColor=%23006BA6)
+![SciPy](https://img.shields.io/badge/scipy-%230C55A5.svg?style=flat&logo=scipy&logoColor=white)
+
 ### Contacto
 
 - **Autor**: Ariel Yasunari Atenco Saucedo
@@ -72,6 +101,7 @@ Welcome to my project portfolio, showcasing my skills in data analysis, visualiz
 - [Megaline Telecommunications](#megaline-telecommunications)
 - [Video Game Sales](#video-game-sales)
 - [Car Market Analytics](#car-market-analytics)
+- [Gym Customer Retention Analysis](#gym-customer-retention-analysis)
 - [Contact](#contact)
 
 ### Instacart Grocery Store
@@ -110,6 +140,34 @@ Welcome to my project portfolio, showcasing my skills in data analysis, visualiz
 ![Streamlit](https://img.shields.io/badge/streamlit-%23FF4B4B.svg?style=flat&logo=streamlit&logoColor=white)
 ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=flat&logo=pandas&logoColor=white)
 ![Plotly](https://img.shields.io/badge/plotly-%233F4F75.svg?style=flat&logo=plotly&logoColor=white)
+
+### Gym Customer Retention Analysis 🏋️‍♂️
+
+**Description**: In this project, I took on the role of a Data Analyst for the “Model Fitness Gym Chain” 💪, with the goal of designing a customer engagement strategy based on data analytics. The steps performed were:  
+1. **Exploratory Data Analysis (EDA)** 📊:  
+   - Data cleaning 🧹.  
+   - Data visualization 📈.  
+2. **Building a Machine Learning Model** 🤖 to predict user churn:  
+   - `LogisticRegression`  
+   - `RandomForestClassifier`  
+3. **User clustering** into groups with similar characteristics 👥:  
+   - `StandardScaler`  
+   - `scaler.fit_transform`  
+4. **Cluster interpretation** and strategic recommendations 📋.  
+
+**Result**: The following strategies were proposed:  
+1. Promote longer-term contracts to increase retention 📅.  
+2. Target customers with high churn propensity through *engagement* strategies 🎯.  
+3. Attract and retain users aged 30 and older with personalized programs 🎂.  
+4. Customize the experience for customers who live far from the gym 🚗.
+   
+**Libraries**:
+![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=flat&logo=scikit-learn&logoColor=white)
+![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=flat&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=flat&logo=numpy&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/matplotlib-%23ffffff.svg?style=flat&logo=matplotlib&logoColor=black)
+![Seaborn](https://img.shields.io/badge/seaborn-%23ffffff.svg?style=flat&logo=python&logoColor=%23006BA6)
+![SciPy](https://img.shields.io/badge/scipy-%230C55A5.svg?style=flat&logo=scipy&logoColor=white)
 
 ### Contact
 
