@@ -6,8 +6,17 @@
 ## Español
 
 ### Descripción
+Bienvenidos a mi **portafolio de Analista de Datos**, desarrollado durante el bootcamp de **TripleTen**. Este repositorio reúne **10 proyectos reales** que demuestran dominio en **análisis exploratorio, pruebas estadísticas, machine learning, clustering y despliegue de aplicaciones**.  
 
-Bienvenidos a mi portafolio de proyectos, donde muestro mis habilidades en análisis de datos, visualización y desarrollo de aplicaciones, adquiridas durante el bootcamp de Analista de Datos de TripleTen. Este repositorio incluye proyectos que abarcan desde exploración y limpieza de datos hasta análisis estadístico, visualización interactiva y despliegue de aplicaciones web. Cada proyecto utiliza herramientas modernas como Python, GitHub, Streamlit y Power BI, con un enfoque en resolver problemas reales de negocio.
+Desde la **optimización de campañas publicitarias** (ROMI, LTV, CAC), hasta el **desarrollo de dashboards interactivos** (Streamlit, Tableau) y la **identificación de operadores ineficaces mediante clustering (KMeans)**, cada proyecto resuelve desafíos de negocio con **Python, pandas, scikit-learn, Seaborn, SciPy y más**.  
+
+Incluye:  
+- Análisis de embudos de ventas y experimentos A/A/B  
+- Pruebas de hipótesis (t-Student, Mann-Whitney)  
+- Visualización avanzada y storytelling con datos  
+- Aplicación web desplegada [](https://project-portafolio.onrender.com)  
+
+**Enfoque: impacto medible, decisiones basadas en datos, resultados accionables.**
 
 ### Tabla de Contenidos
 - [Tienda Comestibles Instacart](#tienda-comestibles-instacart)
@@ -249,8 +258,17 @@ El **grupo B** (versión modificada) superó al **grupo A** con una **tasa de co
 ## English
 
 ### Description
+Welcome to my **Data Analyst Portfolio**, built during the **TripleTen Bootcamp**. This repository features **10 real-world projects** showcasing expertise in **exploratory data analysis, statistical testing, machine learning, clustering, and web app deployment**.  
 
-Welcome to my project portfolio, showcasing my skills in data analysis, visualization, and application development, acquired during the TripleTen Data Analyst Bootcamp. This repository includes projects ranging from data exploration and cleaning to statistical analysis, interactive visualization, and web application deployment. Each project leverages modern tools like Python, GitHub, Streamlit, and Power BI, focusing on solving real-world business problems.
+From **optimizing ad spend** (ROMI, LTV, CAC) to building **interactive dashboards** (Streamlit, Tableau) and **detecting underperforming operators via KMeans clustering**, every project tackles business challenges using **Python, pandas, scikit-learn, Seaborn, SciPy, and more**.  
+
+Includes:  
+- Sales funnel analysis & A/A/B experimentation  
+- Hypothesis testing (t-test, Mann-Whitney)  
+- Advanced visualization & data storytelling  
+- Live web app [](https://project-portafolio.onrender.com)  
+
+**Focus: measurable impact, data-driven decisions, actionable insights.**
 
 ### Table of Contents
 - [Instacart Grocery Store](#instacart-grocery-store)
