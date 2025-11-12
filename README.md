@@ -60,7 +60,7 @@ Bienvenidos a mi portafolio de proyectos, donde muestro mis habilidades en anál
 ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=flat&logo=pandas&logoColor=white)
 ![Plotly](https://img.shields.io/badge/plotly-%233F4F75.svg?style=flat&logo=plotly&logoColor=white)
 
-### Análisis Retención de Clientes de Gimnasios 🏋️‍♂️
+### Análisis Retención de Clientes de Gimnasios
 
 **Descripción**: Este proyecto me posiciona como Analista de Datos para la “Cadena de Gimnasios Model Fitness” 💪, con el objetivo de diseñar una estrategia de interacción con clientes basada en datos analíticos. Los pasos realizados fueron:  
 1. **Análisis Exploratorio de Datos (EDA)** 📊:  
@@ -88,7 +88,7 @@ Bienvenidos a mi portafolio de proyectos, donde muestro mis habilidades en anál
 ![Seaborn](https://img.shields.io/badge/seaborn-%23ffffff.svg?style=flat&logo=python&logoColor=%23006BA6)
 ![SciPy](https://img.shields.io/badge/scipy-%230C55A5.svg?style=flat&logo=scipy&logoColor=white)
 
-### Análisis de Tendencias de YouTube (Dashboard) 📊
+### Análisis de Tendencias de YouTube (Dashboard)
 
 **Descripción**: Como Analista de Vídeos Publicitarios en la agencia **Sterling & Draper** 📈, mi rol consiste en identificar tendencias en YouTube para orientar estrategias de marketing. Cada video pertenece a una categoría (entretenimiento, música, noticias y política, etc.), una región y una fecha de tendencia. Un video puede permanecer en tendencias varios días consecutivos.  
 
@@ -111,7 +111,7 @@ Dashboard interactivo **“Análisis de Tendencias de Videos por Región y Categ
 **Librerías y Herramientas**:  
 ![Tableau](https://img.shields.io/badge/tableau-%23E97627.svg?style=flat&logo=tableau&logoColor=white)
 
-### Experimento AAB para Aplicación de Empresa Alimenticia Emergente 🍎
+### Experimento AAB para Aplicación de Empresa Alimenticia Emergente
 
 **Descripción**: Como Analista de Datos en una startup de productos alimenticios, analicé el comportamiento de usuarios en la app móvil. Estudié el **embudo de ventas** para identificar cuántos usuarios completan la compra y dónde se producen abandonos clave.  
 
@@ -139,7 +139,7 @@ Mantener las fuentes actuales de la aplicación.
 ![Seaborn](https://img.shields.io/badge/seaborn-%23ffffff.svg?style=flat&logo=python&logoColor=%23006BA6)  
 ![SciPy](https://img.shields.io/badge/scipy-%230C55A5.svg?style=flat&logo=scipy&logoColor=white)
 
-### Análisis de Negocio Showz 🎟️
+### Análisis de Negocio Showz
 
 **Descripción**: Durante mis prácticas en el departamento de analítica de **Showz**, empresa líder en venta de entradas para eventos, optimicé los gastos de marketing mediante análisis de datos de 2017–2018. Conté con registros de visitas, pedidos y costos publicitarios.  
 
@@ -173,7 +173,7 @@ El negocio invirtió en 10 fuentes publicitarias. Solo las **fuentes 1 y 2** gen
 ![Matplotlib](https://img.shields.io/badge/matplotlib-%23ffffff.svg?style=flat&logo=matplotlib&logoColor=black)  
 ![Seaborn](https://img.shields.io/badge/seaborn-%23ffffff.svg?style=flat&logo=python&logoColor=%23006BA6)
 
-### Pruebas de Hipótesis de Marketing para Incrementar Ingresos 📈
+### Pruebas de Hipótesis de Marketing para Incrementar Ingresos
 
 **Descripción**: Como Analista de Datos en una gran tienda online, colaboré con el equipo de marketing para priorizar hipótesis de crecimiento y ejecutar un **test A/B** enfocado en aumentar ingresos.  
 
@@ -201,7 +201,7 @@ El **grupo B** (versión modificada) superó al **grupo A** con una **tasa de co
 ![SciPy](https://img.shields.io/badge/scipy-%230C55A5.svg?style=flat&logo=scipy&logoColor=white)
 
 <div style="background: linear-gradient(135deg, #1e3a8a, #3b82f6); padding: 20px; border-radius: 12px; box-shadow: 0 8px 20px rgba(0,0,0,0.15); margin: 25px 0; color: white; font-family: 'Segoe UI', sans-serif;">
-  <h3 style="color: #ffffff; margin-top: 0; text-align: center; font-size: 1.5em;">Identificación de Operadores Ineficaces en CallMeMaybe (Proyecto Intensivo) ☎️</h3>
+  <h3 style="color: #ffffff; margin-top: 0; text-align: center; font-size: 1.5em;">Identificación de Operadores Ineficaces en CallMeMaybe (Proyecto Intensivo)</h3>
   
   <p><strong>Descripción</strong>: En <strong>CallMeMaybe</strong>, servicio de telefonía virtual, desarrollé una función analítica para detectar operadores ineficaces. Un operador se considera ineficaz si presenta:<br>
   • <strong>Alta cantidad de llamadas perdidas</strong> (entrantes).<br>
@@ -303,7 +303,7 @@ Welcome to my project portfolio, showcasing my skills in data analysis, visualiz
 ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=flat&logo=pandas&logoColor=white)
 ![Plotly](https://img.shields.io/badge/plotly-%233F4F75.svg?style=flat&logo=plotly&logoColor=white)
 
-### Gym Customer Retention Analysis 🏋️‍♂️
+### Gym Customer Retention Analysis
 
 **Description**: In this project, I took on the role of a Data Analyst for the “Model Fitness Gym Chain” 💪, with the goal of designing a customer engagement strategy based on data analytics. The steps performed were:  
 1. **Exploratory Data Analysis (EDA)** 📊:  
@@ -331,7 +331,7 @@ Welcome to my project portfolio, showcasing my skills in data analysis, visualiz
 ![Seaborn](https://img.shields.io/badge/seaborn-%23ffffff.svg?style=flat&logo=python&logoColor=%23006BA6)
 ![SciPy](https://img.shields.io/badge/scipy-%230C55A5.svg?style=flat&logo=scipy&logoColor=white)
 
-### YouTube Trending Analysis (Dashboard) 📊
+### YouTube Trending Analysis (Dashboard)
 
 **Description**: As a **Video Advertising Analyst** at **Sterling & Draper** 📈, I analyze YouTube trends to guide marketing strategies. Each video is assigned a category (entertainment, music, news & politics, etc.), a region, and a trending date. Videos may remain trending for multiple consecutive days.  
 
@@ -354,7 +354,7 @@ Interactive dashboard titled **“Video Trending Analysis by Region and Category
 **Tools & Libraries**:  
 ![Tableau](https://img.shields.io/badge/tableau-%23E97627.svg?style=flat&logo=tableau&logoColor=white)
 
-### A/A/B Experiment for Emerging Food Tech App 🍎
+### A/A/B Experiment for Emerging Food Tech App
 
 **Description**: As a Data Analyst at a food product startup, I analyzed user behavior within the mobile app. I mapped the **sales funnel** to determine how many users reach the purchase stage and where drop-offs occur.  
 
@@ -382,7 +382,7 @@ Retain the current app fonts.
 ![Seaborn](https://img.shields.io/badge/seaborn-%23ffffff.svg?style=flat&logo=python&logoColor=%23006BA6)  
 ![SciPy](https://img.shields.io/badge/scipy-%230C55A5.svg?style=flat&logo=scipy&logoColor=white)
 
-### Showz Business Analytics 🎟️
+### Showz Business Analytics
 
 **Description**: As an analytics intern at **Showz**, a leading event ticketing platform, I optimized marketing spend using data from 2017–2018. I worked with server logs (visits), order records, and advertising costs.  
 
@@ -416,7 +416,7 @@ Ten ad sources were used. Only **sources 1 and 2** delivered strong returns (**4
 ![Matplotlib](https://img.shields.io/badge/matplotlib-%23ffffff.svg?style=flat&logo=matplotlib&logoColor=black)  
 ![Seaborn](https://img.shields.io/badge/seaborn-%23ffffff.svg?style=flat&logo=python&logoColor=%23006BA6)
 
-### Marketing Hypothesis Testing to Boost Revenue 📈
+### Marketing Hypothesis Testing to Boost Revenue
 
 **Description**: As a Data Analyst at a major online retailer, I partnered with the marketing team to prioritize revenue-growth hypotheses and run an **A/B test**.  
 
@@ -444,7 +444,7 @@ Using order (`orders_us.csv`) and visit (`visits_us.csv`) data, I performed:
 ![SciPy](https://img.shields.io/badge/scipy-%230C55A5.svg?style=flat&logo=scipy&logoColor=white)
 
 <div style="background: linear-gradient(135deg, #1e3a8a, #3b82f6); padding: 20px; border-radius: 12px; box-shadow: 0 8px 20px rgba(0,0,0,0.15); margin: 25px 0; color: white; font-family: 'Segoe UI', sans-serif;">
-  <h3 style="color: #ffffff; margin-top: 0; text-align: center; font-size: 1.5em;">Identifying Ineffective Operators at CallMeMaybe (Capstone Project) ☎️</h3>
+  <h3 style="color: #ffffff; margin-top: 0; text-align: center; font-size: 1.5em;">Identifying Ineffective Operators at CallMeMaybe (Capstone Project)</h3>
   
   <p><strong>Description</strong>: At <strong>CallMeMaybe</strong>, I built an analytics tool to flag underperforming operators. An operator is ineffective if they show:<br>
   • <strong>High missed incoming calls</strong>.<br>
