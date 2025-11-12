@@ -14,7 +14,7 @@ Bienvenidos a mi portafolio de proyectos, donde muestro mis habilidades en anál
 - [Tienda Comestibles Instacart](#tienda-comestibles-instacart)
 - [Telecomunicaciones Megaline](#telecomunicaciones-megaline)
 - [Ventas Videojuegos](#ventas-videojuegos)
-- [Car Market Analytics](#car-market-analytics)
+- [Análisis de Mercado de Autos](#car-market-analytics)
 - [Contacto](#contacto)
 
 ### Tienda Comestibles Instacart
@@ -45,7 +45,7 @@ Bienvenidos a mi portafolio de proyectos, donde muestro mis habilidades en anál
 ![Seaborn](https://img.shields.io/badge/seaborn-%23007ACC.svg?style=flat&logo=seaborn&logoColor=white)
 ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=flat&logo=numpy&logoColor=white)
 
-### Car Market Analytics
+### Análisis de Mercado de Autos
 
 **Descripción**: Este proyecto desarrolla un *dashboard* interactivo para una agencia de venta de autos usados, permitiendo a los clientes visualizar información de los vehículos disponibles. Se utilizaron herramientas de software como *GitHub* para versionamiento, *Visual Studio Code* para desarrollo, *Streamlit* para pruebas y *Render.com* para despliegue web ([ver aplicación](https://project-portafolio.onrender.com)). Se realizó una exploración y limpieza inicial de los datos, seguidas de la creación de un *dashboard* con un menú desplegable para seleccionar visualizaciones (gráficas de barras y dispersión) basadas en variables como precio, kilometraje, año modelo y condición. **Resultado**: Una aplicación funcional desplegada en línea, con visualizaciones interactivas. 🚗
 
