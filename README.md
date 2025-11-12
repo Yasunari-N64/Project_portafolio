@@ -18,6 +18,10 @@ Bienvenidos a mi portafolio de proyectos, donde muestro mis habilidades en anál
 - [Análisis Retención de Clientes de Gimnasios](#análisis-retención-de-clientes-de-gimnasios)
 - [Análisis de Tendencias de YouTube (Dashboard)](#análisis-de-tendencias-de-youtube-dashboard)
 - [Experimento AAB para Aplicación de Empresa Alimenticia Emergente](#experimento-aab-para-aplicación-de-empresa-alimenticia-emergente)
+- [Análisis de Negocio Showz](#análisis-de-negocio-showz)
+- [Pruebas de Hipótesis de Marketing para Incrementar Ingresos](#pruebas-de-hipótesis-de-marketing-para-incrementar-ingresos)
+- [**Identificación de Operadores Ineficaces en CallMeMaybe (Proyecto Final)**](#identificación-de-operadores-ineficaces-en-callmemaybe-proyecto-intensivo)  
+  *(Proyecto intensivo final – Clustering + Hipótesis + Recomendaciones de negocio)*
 - [Contacto](#contacto)
 
 ### Tienda Comestibles Instacart
@@ -136,6 +140,107 @@ Mantener las fuentes actuales de la aplicación.
 ![Seaborn](https://img.shields.io/badge/seaborn-%23ffffff.svg?style=flat&logo=python&logoColor=%23006BA6)  
 ![SciPy](https://img.shields.io/badge/scipy-%230C55A5.svg?style=flat&logo=scipy&logoColor=white)
 
+### Análisis de Negocio Showz 🎟️
+
+**Descripción**: Durante mis prácticas en el departamento de analítica de **Showz**, empresa líder en venta de entradas para eventos, optimicé los gastos de marketing mediante análisis de datos de 2017–2018. Conté con registros de visitas, pedidos y costos publicitarios.  
+
+Investigué:  
+- Comportamiento del usuario en la plataforma.  
+- Tiempo entre registro y primera compra.  
+- Valor del cliente a lo largo del tiempo (**LTV**).  
+- Punto de recuperación del costo de adquisición (**CAC Payback**).  
+
+**Pasos clave**:  
+1. **Preprocesamiento**: carga y optimización de datos (`visits_log_us.csv`, `orders_log_us.csv`, `costs_us.csv`).  
+2. **Métricas calculadas**:  
+   - Uso diario, semanal y mensual (usuarios y sesiones).  
+   - Duración promedio de sesión y frecuencia de retorno.  
+   - Conversión por cohorte y canal de adquisición.  
+   - Tamaño promedio de pedido y LTV.  
+   - Costo total por fuente, CAC y **ROMI** (Return on Marketing Investment).  
+
+**Resultado**:  
+El negocio invirtió en 10 fuentes publicitarias. Solo las **fuentes 1 y 2** generaron retornos significativos (**49%** y **9%** de ROMI). Las **fuentes 3, 4 y 10** resultaron en pérdidas, con la **fuente 3** como la más crítica (**-61%**). El resultado neto fue una **pérdida de $77,000** por inversiones ineficientes.
+
+**Recomendaciones**:  
+- **Eliminar** fuentes 3, 4 y 10 (ROMI negativo).  
+- **Concentrar** presupuesto en fuentes 1 y 2 (priorizando la 1).  
+- **Reasignar** inversión de fuentes 5 y 9 hacia las más rentables.  
+- **Monitorear** fuente 7 (orgánica con ingresos sin costo).  
+
+**Librerías**:  
+![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=flat&logo=pandas&logoColor=white)  
+![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=flat&logo=numpy&logoColor=white)  
+![Matplotlib](https://img.shields.io/badge/matplotlib-%23ffffff.svg?style=flat&logo=matplotlib&logoColor=black)  
+![Seaborn](https://img.shields.io/badge/seaborn-%23ffffff.svg?style=flat&logo=python&logoColor=%23006BA6)
+
+### Pruebas de Hipótesis de Marketing para Incrementar Ingresos 📈
+
+**Descripción**: Como Analista de Datos en una gran tienda online, colaboré con el equipo de marketing para priorizar hipótesis de crecimiento y ejecutar un **test A/B** enfocado en aumentar ingresos.  
+
+**Parte 1 – Priorización de Hipótesis**  
+Utilicé los frameworks **ICE** y **RICE** para ordenar 9 hipótesis según su potencial (`Reach`, `Impact`, `Confidence`, `Effort`). RICE incorpora el alcance del público, modificando la prioridad frente a ICE.
+
+**Parte 2 – Análisis del Test A/B**  
+Con datos de pedidos (`orders_us.csv`) y visitas (`visits_us.csv`), realicé:  
+- Gráficas de **ingreso acumulado**, **tamaño promedio de pedido** y **diferencia relativa** (B vs A).  
+- Análisis de **tasa de conversión diaria** por grupo.  
+- Distribución de pedidos por usuario y precios (gráficos de dispersión).  
+- Cálculo de **percentiles 95 y 99** para detectar anomalías.  
+- Pruebas de **significancia estadística** (Mann-Whitney U) en conversión y tamaño de pedido (datos crudos y filtrados).
+
+**Resultado**:  
+El **grupo B** (versión modificada) superó al **grupo A** con una **tasa de conversión del 3.02%**, un **+18%** respecto al grupo A. Aunque el tamaño promedio de pedido fue similar, el **ingreso acumulado** confirma mayor rentabilidad a largo plazo.  
+
+**Conclusión**: **ÉXITO**. Se recomienda **detener la prueba e implementar la versión B**. Para aumentar el ticket promedio, evaluar nuevas hipótesis.
+
+**Librerías**:  
+![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=flat&logo=pandas&logoColor=white)  
+![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=flat&logo=numpy&logoColor=white)  
+![Matplotlib](https://img.shields.io/badge/matplotlib-%23ffffff.svg?style=flat&logo=matplotlib&logoColor=black)  
+![Seaborn](https://img.shields.io/badge/seaborn-%23ffffff.svg?style=flat&logo=python&logoColor=%23006BA6)  
+![SciPy](https://img.shields.io/badge/scipy-%230C55A5.svg?style=flat&logo=scipy&logoColor=white)
+
+<div style="background: linear-gradient(135deg, #1e3a8a, #3b82f6); padding: 20px; border-radius: 12px; box-shadow: 0 8px 20px rgba(0,0,0,0.15); margin: 25px 0; color: white; font-family: 'Segoe UI', sans-serif;">
+  <h3 style="color: #ffffff; margin-top: 0; text-align: center; font-size: 1.5em;">Identificación de Operadores Ineficaces en CallMeMaybe (Proyecto Intensivo) ☎️</h3>
+  
+  <p><strong>Descripción</strong>: En <strong>CallMeMaybe</strong>, servicio de telefonía virtual, desarrollé una función analítica para detectar operadores ineficaces. Un operador se considera ineficaz si presenta:<br>
+  • <strong>Alta cantidad de llamadas perdidas</strong> (entrantes).<br>
+  • <strong>Tiempo de espera prolongado</strong> (entrantes).<br>
+  • <strong>Bajo volumen de llamadas salientes</strong> (si aplica).</p>
+
+  <p><strong>Metodología</strong>:<br>
+  1. <strong>Análisis exploratorio</strong>: carga, limpieza, enriquecimiento y visualización.<br>
+  2. <strong>Clasificación</strong>: mediante <strong>KMeans</strong> y criterios visuales.<br>
+  3. <strong>Hipótesis</strong>: comparación estadística entre grupos.</p>
+
+  <p><strong>Resultado</strong>:<br>
+  • <strong>3 operadores</strong> cumplen <strong>los 3 criterios</strong> (outliers en pérdidas y espera).<br>
+  • <strong>29 operadores</strong> cumplen <strong>2 criterios</strong> (peores en métricas clave).</p>
+
+  <p><strong>Conclusiones</strong>: Problema en <strong>gestión de llamadas entrantes</strong> (capacidad, enrutamiento o formación). Impacto: <strong>mala experiencia del cliente</strong>.</p>
+
+  <p><strong>Recomendaciones – 3 criterios</strong>:<br>
+  1. Reentrenamiento urgente.<br>
+  2. Revisión de enrutamiento.<br>
+  3. Reducción temporal de carga.<br>
+  4. Monitoreo diario con alertas.</p>
+
+  <p><strong>Recomendaciones – 2 criterios</strong>:<br>
+  1. Capacitación intensiva.<br>
+  2. Ajuste de distribución.<br>
+  3. Seguimiento semanal.</p>
+
+  <p><strong>Librerías</strong>:<br>
+  <img src="https://img.shields.io/badge/pandas-%23150458.svg?style=flat&logo=pandas&logoColor=white" alt="Pandas">
+  <img src="https://img.shields.io/badge/numpy-%23013243.svg?style=flat&logo=numpy&logoColor=white" alt="NumPy">
+  <img src="https://img.shields.io/badge/matplotlib-%23ffffff.svg?style=flat&logo=matplotlib&logoColor=black" alt="Matplotlib">
+  <img src="https://img.shields.io/badge/seaborn-%23ffffff.svg?style=flat&logo=python&logoColor=%23006BA6" alt="Seaborn">
+  <img src="https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=flat&logo=scikit-learn&logoColor=white" alt="scikit-learn">
+  <img src="https://img.shields.io/badge/scipy-%230C55A5.svg?style=flat&logo=scipy&logoColor=white" alt="SciPy">
+  </p>
+</div>
+
 ### Contacto
 
 - **Autor**: Ariel Yasunari Atenco Saucedo
@@ -157,6 +262,10 @@ Welcome to my project portfolio, showcasing my skills in data analysis, visualiz
 - [Gym Customer Retention Analysis](#gym-customer-retention-analysis)
 - [YouTube Trending Analysis (Dashboard)](#youtube-trending-analysis-dashboard)
 - [A/A/B Experiment for Emerging Food Tech App](#a-a-b-experiment-for-emerging-food-tech-app)
+- [Showz Business Analytics](#showz-business-analytics)
+- [Marketing Hypothesis Testing to Boost Revenue](#marketing-hypothesis-testing-to-boost-revenue)
+- [**Identifying Ineffective Operators at CallMeMaybe (Capstone Project)**](#identifying-ineffective-operators-at-callmemaybe-capstone-project)  
+  *(Final intensive project – Clustering + Statistical Testing + Business Recommendations)*
 - [Contact](#contact)
 
 ### Instacart Grocery Store
@@ -274,6 +383,107 @@ Retain the current app fonts.
 ![Matplotlib](https://img.shields.io/badge/matplotlib-%23ffffff.svg?style=flat&logo=matplotlib&logoColor=black)  
 ![Seaborn](https://img.shields.io/badge/seaborn-%23ffffff.svg?style=flat&logo=python&logoColor=%23006BA6)  
 ![SciPy](https://img.shields.io/badge/scipy-%230C55A5.svg?style=flat&logo=scipy&logoColor=white)
+
+### Showz Business Analytics 🎟️
+
+**Description**: As an analytics intern at **Showz**, a leading event ticketing platform, I optimized marketing spend using data from 2017–2018. I worked with server logs (visits), order records, and advertising costs.  
+
+I analyzed:  
+- User engagement patterns.  
+- Time from registration to first purchase.  
+- Customer lifetime value (**LTV**).  
+- Break-even point for customer acquisition cost (**CAC Payback**).  
+
+**Key Steps**:  
+1. **Data Prep**: loaded and optimized datasets (`visits_log_us.csv`, `orders_log_us.csv`, `costs_us.csv`).  
+2. **Metrics Computed**:  
+   - Daily, weekly, monthly active users and sessions.  
+   - Average session duration and return frequency.  
+   - Cohort-based conversion and acquisition channel performance.  
+   - Average order value and LTV.  
+   - Total spend per source, CAC, and **ROMI** (Return on Marketing Investment).  
+
+**Result**:  
+Ten ad sources were used. Only **sources 1 and 2** delivered strong returns (**49%** and **9%** ROMI). **Sources 3, 4, and 10** generated losses, with **source 3** being the worst (**-61%**). Net result: a **$77,000 loss** due to inefficient channels.
+
+**Recommendations**:  
+- **Discontinue** sources 3, 4, and 10 (negative ROMI).  
+- **Prioritize** investment in sources 1 and 2 (especially source 1).  
+- **Reallocate** budget from sources 5 and 9 to top performers.  
+- **Monitor** source 7 (organic traffic with revenue at zero cost).  
+
+**Libraries**:  
+![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=flat&logo=pandas&logoColor=white)  
+![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=flat&logo=numpy&logoColor=white)  
+![Matplotlib](https://img.shields.io/badge/matplotlib-%23ffffff.svg?style=flat&logo=matplotlib&logoColor=black)  
+![Seaborn](https://img.shields.io/badge/seaborn-%23ffffff.svg?style=flat&logo=python&logoColor=%23006BA6)
+
+### Marketing Hypothesis Testing to Boost Revenue 📈
+
+**Description**: As a Data Analyst at a major online retailer, I partnered with the marketing team to prioritize revenue-growth hypotheses and run an **A/B test**.  
+
+**Part 1 – Hypothesis Prioritization**  
+Applied **ICE** and **RICE** frameworks to rank 9 hypotheses based on `Reach`, `Impact`, `Confidence`, and `Effort`. RICE includes audience reach, shifting priorities compared to ICE.
+
+**Part 2 – A/B Test Analysis**  
+Using order (`orders_us.csv`) and visit (`visits_us.csv`) data, I performed:  
+- Cumulative **revenue**, **average order value**, and **relative difference** (B vs A) charts.  
+- Daily **conversion rate** analysis per group.  
+- Scatter plots of orders per user and order prices.  
+- **95th and 99th percentiles** to define anomalies.  
+- **Statistical significance** tests (Mann-Whitney U) on conversion and order size (raw and filtered data).
+
+**Result**:  
+**Group B** (modified version) outperformed **Group A** with a **3.02% conversion rate** — an **18% increase**. Despite similar average order values, **cumulative revenue** confirms long-term gains.  
+
+**Conclusion**: **SUCCESS**. Recommend **stopping the test and rolling out Group B**. To increase AOV, explore new hypotheses.
+
+**Libraries**:  
+![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=flat&logo=pandas&logoColor=white)  
+![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=flat&logo=numpy&logoColor=white)  
+![Matplotlib](https://img.shields.io/badge/matplotlib-%23ffffff.svg?style=flat&logo=matplotlib&logoColor=black)  
+![Seaborn](https://img.shields.io/badge/seaborn-%23ffffff.svg?style=flat&logo=python&logoColor=%23006BA6)  
+![SciPy](https://img.shields.io/badge/scipy-%230C55A5.svg?style=flat&logo=scipy&logoColor=white)
+
+<div style="background: linear-gradient(135deg, #1e3a8a, #3b82f6); padding: 20px; border-radius: 12px; box-shadow: 0 8px 20px rgba(0,0,0,0.15); margin: 25px 0; color: white; font-family: 'Segoe UI', sans-serif;">
+  <h3 style="color: #ffffff; margin-top: 0; text-align: center; font-size: 1.5em;">Identifying Ineffective Operators at CallMeMaybe (Capstone Project) ☎️</h3>
+  
+  <p><strong>Description</strong>: At <strong>CallMeMaybe</strong>, I built an analytics tool to flag underperforming operators. An operator is ineffective if they show:<br>
+  • <strong>High missed incoming calls</strong>.<br>
+  • <strong>Long wait times</strong>.<br>
+  • <strong>Low outgoing volume</strong> (when required).</p>
+
+  <p><strong>Methodology</strong>:<br>
+  1. <strong>Exploratory analysis</strong>: load, clean, enrich, visualize.<br>
+  2. <strong>Classification</strong>: via <strong>KMeans</strong> and visual rules.<br>
+  3. <strong>Hypothesis testing</strong>: top vs. bottom performers.</p>
+
+  <p><strong>Result</strong>:<br>
+  • <strong>3 operators</strong> met <strong>all 3 criteria</strong> (outliers in misses & wait).<br>
+  • <strong>29 operators</strong> met <strong>2 criteria</strong> (worse across KPIs).</p>
+
+  <p><strong>Insights</strong>: Core issue in <strong>inbound handling</strong> (capacity, routing, training). Risk: <strong>customer churn</strong>.</p>
+
+  <p><strong>Action Plan – 3 Criteria</strong>:<br>
+  1. Urgent retraining.<br>
+  2. Review routing logic.<br>
+  3. Reduce load temporarily.<br>
+  4. Daily alerts.</p>
+
+  <p><strong>Action Plan – 2 Criteria</strong>:<br>
+  1. Intensive training.<br>
+  2. Balance call distribution.<br>
+  3. Weekly monitoring.</p>
+
+  <p><strong>Libraries</strong>:<br>
+  <img src="https://img.shields.io/badge/pandas-%23150458.svg?style=flat&logo=pandas&logoColor=white" alt="Pandas">
+  <img src="https://img.shields.io/badge/numpy-%23013243.svg?style=flat&logo=numpy&logoColor=white" alt="NumPy">
+  <img src="https://img.shields.io/badge/matplotlib-%23ffffff.svg?style=flat&logo=matplotlib&logoColor=black" alt="Matplotlib">
+  <img src="https://img.shields.io/badge/seaborn-%23ffffff.svg?style=flat&logo=python&logoColor=%23006BA6" alt="Seaborn">
+  <img src="https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=flat&logo=scikit-learn&logoColor=white" alt="scikit-learn">
+  <img src="https://img.shields.io/badge/scipy-%230C55A5.svg?style=flat&logo=scipy&logoColor=white" alt="SciPy">
+  </p>
+</div>
 
 ### Contact
 
