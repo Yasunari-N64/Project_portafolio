@@ -16,6 +16,8 @@ Bienvenidos a mi portafolio de proyectos, donde muestro mis habilidades en anál
 - [Ventas Videojuegos](#ventas-videojuegos)
 - [Análisis de Mercado de Autos](#car-market-analytics)
 - [Análisis Retención de Clientes de Gimnasios](#análisis-retención-de-clientes-de-gimnasios)
+- [Análisis de Tendencias de YouTube (Dashboard)](#análisis-de-tendencias-de-youtube-dashboard)
+- [Experimento AAB para Aplicación de Empresa Alimenticia Emergente](#experimento-aab-para-aplicación-de-empresa-alimenticia-emergente)
 - [Contacto](#contacto)
 
 ### Tienda Comestibles Instacart
@@ -83,6 +85,57 @@ Bienvenidos a mi portafolio de proyectos, donde muestro mis habilidades en anál
 ![Seaborn](https://img.shields.io/badge/seaborn-%23ffffff.svg?style=flat&logo=python&logoColor=%23006BA6)
 ![SciPy](https://img.shields.io/badge/scipy-%230C55A5.svg?style=flat&logo=scipy&logoColor=white)
 
+### Análisis de Tendencias de YouTube (Dashboard) 📊
+
+**Descripción**: Como Analista de Vídeos Publicitarios en la agencia **Sterling & Draper** 📈, mi rol consiste en identificar tendencias en YouTube para orientar estrategias de marketing. Cada video pertenece a una categoría (entretenimiento, música, noticias y política, etc.), una región y una fecha de tendencia. Un video puede permanecer en tendencias varios días consecutivos.  
+
+Semanalmente, las nuevas integrantes **Melanie** y **Ashok** requieren respuestas a:  
+- ¿Qué categorías dominaron las tendencias la semana pasada?  
+- ¿Cómo se distribuyeron geográficamente?  
+- ¿Qué categorías destacaron en Estados Unidos?  
+
+En mi sexta semana, automatice el proceso mediante un **dashboard interactivo** para agilizar el análisis y la toma de decisiones.
+
+**Resultado**:  
+Dashboard interactivo **“Análisis de Tendencias de Videos por Región y Categoría”**, con los siguientes componentes:  
+- **Barra deslizante de fechas** 📅 para explorar períodos específicos.  
+- **Filtro de región/país** 🌍 para análisis focalizado.  
+- **Gráfica de áreas (absoluta)** 📈: evolución histórica de videos en tendencia.  
+- **Gráfica de áreas (relativa)** 📉: tendencias normalizadas por región.  
+- **Gráfica de pastel** 🥧: distribución porcentual de videos por país.  
+- **Mapa de calor** 🔥: intensidad de tendencias por país y categoría.  
+
+**Librerías y Herramientas**:  
+![Tableau](https://img.shields.io/badge/tableau-%23E97627.svg?style=flat&logo=tableau&logoColor=white)
+
+### Experimento AAB para Aplicación de Empresa Alimenticia Emergente 🍎
+
+**Descripción**: Como Analista de Datos en una startup de productos alimenticios, analicé el comportamiento de usuarios en la app móvil. Estudié el **embudo de ventas** para identificar cuántos usuarios completan la compra y dónde se producen abandonos clave.  
+
+Posteriormente, evalué un **experimento A/A/B** sobre un rediseño de fuentes:  
+- **A1 y A2**: grupos de control con fuentes originales.  
+- **B**: grupo de prueba con fuentes nuevas.  
+
+El objetivo fue validar si el cambio afecta la experiencia del usuario. Los grupos A/A permiten verificar la consistencia estadística y detectar sesgos antes de comparar con B.
+
+**Resultado**:  
+No se encontraron diferencias significativas entre los grupos:  
+- **A1**: 246 usuarios por evento clave  
+- **A2**: 247 usuarios por evento clave  
+- **B**: 248 usuarios por evento clave  
+
+El cambio de fuentes **no impactó el comportamiento del usuario**. El experimento se considera **fallido**.
+
+**Recomendación**:  
+Mantener las fuentes actuales de la aplicación.
+
+**Librerías**:  
+![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=flat&logo=pandas&logoColor=white)  
+![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=flat&logo=numpy&logoColor=white)  
+![Matplotlib](https://img.shields.io/badge/matplotlib-%23ffffff.svg?style=flat&logo=matplotlib&logoColor=black)  
+![Seaborn](https://img.shields.io/badge/seaborn-%23ffffff.svg?style=flat&logo=python&logoColor=%23006BA6)  
+![SciPy](https://img.shields.io/badge/scipy-%230C55A5.svg?style=flat&logo=scipy&logoColor=white)
+
 ### Contacto
 
 - **Autor**: Ariel Yasunari Atenco Saucedo
@@ -102,6 +155,8 @@ Welcome to my project portfolio, showcasing my skills in data analysis, visualiz
 - [Video Game Sales](#video-game-sales)
 - [Car Market Analytics](#car-market-analytics)
 - [Gym Customer Retention Analysis](#gym-customer-retention-analysis)
+- [YouTube Trending Analysis (Dashboard)](#youtube-trending-analysis-dashboard)
+- [A/A/B Experiment for Emerging Food Tech App](#a-a-b-experiment-for-emerging-food-tech-app)
 - [Contact](#contact)
 
 ### Instacart Grocery Store
@@ -167,6 +222,57 @@ Welcome to my project portfolio, showcasing my skills in data analysis, visualiz
 ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=flat&logo=numpy&logoColor=white)
 ![Matplotlib](https://img.shields.io/badge/matplotlib-%23ffffff.svg?style=flat&logo=matplotlib&logoColor=black)
 ![Seaborn](https://img.shields.io/badge/seaborn-%23ffffff.svg?style=flat&logo=python&logoColor=%23006BA6)
+![SciPy](https://img.shields.io/badge/scipy-%230C55A5.svg?style=flat&logo=scipy&logoColor=white)
+
+### YouTube Trending Analysis (Dashboard) 📊
+
+**Description**: As a **Video Advertising Analyst** at **Sterling & Draper** 📈, I analyze YouTube trends to guide marketing strategies. Each video is assigned a category (entertainment, music, news & politics, etc.), a region, and a trending date. Videos may remain trending for multiple consecutive days.  
+
+Weekly, new team members **Melanie** and **Ashok** request:  
+- Which categories trended last week?  
+- How were they distributed across regions?  
+- Which categories were particularly strong in the United States?  
+
+In my sixth week, I automated the process by building an **interactive dashboard** to streamline insights and decision-making.
+
+**Result**:  
+Interactive dashboard titled **“Video Trending Analysis by Region and Category”**, featuring:  
+- **Date range slider** 📅 for time-based exploration.  
+- **Region/country filter** 🌍 for targeted analysis.  
+- **Absolute area chart** 📈: historical trend volume over time.  
+- **Relative area chart** 📉: normalized trends by region.  
+- **Pie chart** 🥧: percentage distribution of trending videos by country.  
+- **Heatmap** 🔥: trend intensity by country and category.  
+
+**Tools & Libraries**:  
+![Tableau](https://img.shields.io/badge/tableau-%23E97627.svg?style=flat&logo=tableau&logoColor=white)
+
+### A/A/B Experiment for Emerging Food Tech App 🍎
+
+**Description**: As a Data Analyst at a food product startup, I analyzed user behavior within the mobile app. I mapped the **sales funnel** to determine how many users reach the purchase stage and where drop-offs occur.  
+
+I then conducted an **A/A/B test** to evaluate a font redesign:  
+- **A1 & A2**: control groups with original fonts.  
+- **B**: test group with new fonts.  
+
+The goal was to assess whether the visual change impacts user experience. Dual control groups (A/A) ensure statistical reliability and help detect hidden biases before comparing with B.
+
+**Result**:  
+No significant differences were observed:  
+- **A1**: 246 users per key event  
+- **A2**: 247 users per key event  
+- **B**: 248 users per key event  
+
+The font change **had no meaningful impact** on user behavior. The experiment is deemed **unsuccessful**.
+
+**Recommendation**:  
+Retain the current app fonts.
+
+**Libraries**:  
+![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=flat&logo=pandas&logoColor=white)  
+![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=flat&logo=numpy&logoColor=white)  
+![Matplotlib](https://img.shields.io/badge/matplotlib-%23ffffff.svg?style=flat&logo=matplotlib&logoColor=black)  
+![Seaborn](https://img.shields.io/badge/seaborn-%23ffffff.svg?style=flat&logo=python&logoColor=%23006BA6)  
 ![SciPy](https://img.shields.io/badge/scipy-%230C55A5.svg?style=flat&logo=scipy&logoColor=white)
 
 ### Contact
