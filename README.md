@@ -20,7 +20,7 @@ Bienvenidos a mi portafolio de proyectos, donde muestro mis habilidades en anál
 - [Experimento AAB para Aplicación de Empresa Alimenticia Emergente](#experimento-aab-para-aplicación-de-empresa-alimenticia-emergente)
 - [Análisis de Negocio Showz](#análisis-de-negocio-showz)
 - [Pruebas de Hipótesis de Marketing para Incrementar Ingresos](#pruebas-de-hipótesis-de-marketing-para-incrementar-ingresos)
-- [**Identificación de Operadores Ineficaces en CallMeMaybe (Proyecto Final)**](#identificación-de-operadores-ineficaces-en-callmemaybe-proyecto-intensivo)  
+- [**Identificación de Operadores Ineficaces en CallMeMaybe (Proyecto Intensivo)**](#identificación-de-operadores-ineficaces-en-callmemaybe-proyecto-intensivo)  
   *(Proyecto intensivo final – Clustering + Hipótesis + Recomendaciones de negocio)*
 - [Contacto](#contacto)
 
