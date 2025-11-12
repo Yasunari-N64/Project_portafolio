@@ -6,7 +6,7 @@
 ## Español
 
 ### Descripción
-Bienvenidos a mi **portafolio de Analista de Datos**. Este repositorio reúne **10 proyectos reales** que demuestran dominio en **análisis exploratorio, pruebas estadísticas, machine learning, clustering y despliegue de aplicaciones web**.  
+Bienvenidos a mi **portafolio de Analista de Datos**. Este repositorio reúne **proyectos reales** que demuestran dominio en **análisis exploratorio, pruebas estadísticas, machine learning, clustering y despliegue de aplicaciones web**.  
 
 Desde la **optimización de campañas publicitarias** (ROMI, LTV, CAC), hasta el **desarrollo de dashboards interactivos** (Streamlit, Tableau) y la **identificación de operadores ineficaces mediante KMeans**, cada proyecto resuelve desafíos de negocio con **Python, pandas, scikit-learn, Seaborn, SciPy y más**.  
 
@@ -266,7 +266,7 @@ El **grupo B** (versión modificada) superó al **grupo A** con una **tasa de co
 ## English
 
 ### Description
-Welcome to my **Data Analyst Portfolio**. This repository features **10 real-world projects** showcasing expertise in **exploratory data analysis, statistical testing, machine learning, clustering, and web app deployment**.  
+Welcome to my **Data Analyst Portfolio**. This repository features **real-world projects** showcasing expertise in **exploratory data analysis, statistical testing, machine learning, clustering, and web app deployment**.  
 
 From **optimizing ad spend** (ROMI, LTV, CAC) to building **interactive dashboards** (Streamlit, Tableau) and **detecting underperforming operators via KMeans clustering**, every project tackles business challenges using **Python, pandas, scikit-learn, Seaborn, SciPy, and more**.  
 
