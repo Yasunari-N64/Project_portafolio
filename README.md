@@ -10,11 +10,10 @@
 Bienvenidos a mi portafolio de proyectos, donde muestro mis habilidades en análisis de datos, visualización y desarrollo de aplicaciones, adquiridas durante el bootcamp de Analista de Datos de TripleTen. Este repositorio incluye proyectos que abarcan desde exploración y limpieza de datos hasta análisis estadístico, visualización interactiva y despliegue de aplicaciones web. Cada proyecto utiliza herramientas modernas como Python, GitHub, Streamlit y Power BI, con un enfoque en resolver problemas reales de negocio.
 
 ### Tabla de Contenidos
-
 - [Tienda Comestibles Instacart](#tienda-comestibles-instacart)
 - [Telecomunicaciones Megaline](#telecomunicaciones-megaline)
 - [Ventas Videojuegos](#ventas-videojuegos)
-- [Análisis de Mercado de Autos](#car-market-analytics)
+- [Análisis de Mercado de Autos](#análisis-de-mercado-de-autos)
 - [Análisis Retención de Clientes de Gimnasios](#análisis-retención-de-clientes-de-gimnasios)
 - [Análisis de Tendencias de YouTube (Dashboard)](#análisis-de-tendencias-de-youtube-dashboard)
 - [Experimento AAB para Aplicación de Empresa Alimenticia Emergente](#experimento-aab-para-aplicación-de-empresa-alimenticia-emergente)
@@ -254,7 +253,6 @@ El **grupo B** (versión modificada) superó al **grupo A** con una **tasa de co
 Welcome to my project portfolio, showcasing my skills in data analysis, visualization, and application development, acquired during the TripleTen Data Analyst Bootcamp. This repository includes projects ranging from data exploration and cleaning to statistical analysis, interactive visualization, and web application deployment. Each project leverages modern tools like Python, GitHub, Streamlit, and Power BI, focusing on solving real-world business problems.
 
 ### Table of Contents
-
 - [Instacart Grocery Store](#instacart-grocery-store)
 - [Megaline Telecommunications](#megaline-telecommunications)
 - [Video Game Sales](#video-game-sales)
